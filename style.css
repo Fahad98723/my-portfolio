@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-section{
+.container-flexibility{
     display: flex;
 }
 .top-banner{
@@ -20,15 +20,15 @@ p{
     font-size: 18px;
 }
 .half-width{
-    width: 100%;
-    padding-left: 5%;
-    
+    width: 50%;
+    padding: 0 5% ;
+    margin-bottom: 60px;
 }
 .half-width img{
     display: block;
     margin: 0 auto;
 }
-.half-width .name{
+.name{
     color: darkorange;
 }
 .half-width .btn{
@@ -38,4 +38,42 @@ p{
     border-radius: 5px;
     color: white;
     background-image: linear-gradient(#FF8C00,#FA6F5B);
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.developer{
+    width: 50%;
+    margin-left: 4%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.developer h4{
+    font-size: 25px;
+}
+.developer p{
+    margin-bottom: 100px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 60px;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 4;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 2;
+}
+footer{
+    text-align: center;
 }
